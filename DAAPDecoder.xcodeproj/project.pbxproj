@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D76C99018FFD9B9009ACA89 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D76C98F18FFD9B9009ACA89 /* Cocoa.framework */; };
+		1D76C99A18FFD9B9009ACA89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D76C99818FFD9B9009ACA89 /* InfoPlist.strings */; };
+		1D76C99C18FFD9B9009ACA89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D76C99B18FFD9B9009ACA89 /* main.m */; };
+		1D76C9A018FFD9B9009ACA89 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1D76C99E18FFD9B9009ACA89 /* Credits.rtf */; };
+		1D76C9A318FFD9B9009ACA89 /* URAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D76C9A218FFD9B9009ACA89 /* URAppDelegate.m */; };
+		1D76C9A618FFD9B9009ACA89 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D76C9A418FFD9B9009ACA89 /* MainMenu.xib */; };
+		1D76C9A818FFD9B9009ACA89 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D76C9A718FFD9B9009ACA89 /* Images.xcassets */; };
+		1D76C9AF18FFD9B9009ACA89 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D76C9AE18FFD9B9009ACA89 /* XCTest.framework */; };
+		1D76C9B018FFD9B9009ACA89 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D76C98F18FFD9B9009ACA89 /* Cocoa.framework */; };
+		1D76C9C518FFDA0D009ACA89 /* URDAAPDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D76C9C418FFDA0D009ACA89 /* URDAAPDecoder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D76C9B118FFD9B9009ACA89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D76C98418FFD9B9009ACA89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D76C98B18FFD9B9009ACA89;
+			remoteInfo = DAAPDecoder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D76C98C18FFD9B9009ACA89 /* DAAPDecoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DAAPDecoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D76C98F18FFD9B9009ACA89 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1D76C99218FFD9B9009ACA89 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1D76C99318FFD9B9009ACA89 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1D76C99418FFD9B9009ACA89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D76C99718FFD9B9009ACA89 /* DAAPDecoder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DAAPDecoder-Info.plist"; sourceTree = "<group>"; };
+		1D76C99918FFD9B9009ACA89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D76C99B18FFD9B9009ACA89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D76C99D18FFD9B9009ACA89 /* DAAPDecoder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DAAPDecoder-Prefix.pch"; sourceTree = "<group>"; };
+		1D76C99F18FFD9B9009ACA89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1D76C9A118FFD9B9009ACA89 /* URAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URAppDelegate.h; sourceTree = "<group>"; };
+		1D76C9A218FFD9B9009ACA89 /* URAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URAppDelegate.m; sourceTree = "<group>"; };
+		1D76C9A518FFD9B9009ACA89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1D76C9A718FFD9B9009ACA89 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1D76C9AD18FFD9B9009ACA89 /* DAAPDecoderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DAAPDecoderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D76C9AE18FFD9B9009ACA89 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1D76C9C318FFDA0D009ACA89 /* URDAAPDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URDAAPDecoder.h; sourceTree = "<group>"; };
+		1D76C9C418FFDA0D009ACA89 /* URDAAPDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URDAAPDecoder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D76C98918FFD9B9009ACA89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D76C99018FFD9B9009ACA89 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D76C9AA18FFD9B9009ACA89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D76C9B018FFD9B9009ACA89 /* Cocoa.framework in Frameworks */,
+				1D76C9AF18FFD9B9009ACA89 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D76C98318FFD9B9009ACA89 = {
+			isa = PBXGroup;
+			children = (
+				1D76C99518FFD9B9009ACA89 /* DAAPDecoder */,
+				1D76C98E18FFD9B9009ACA89 /* Frameworks */,
+				1D76C98D18FFD9B9009ACA89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D76C98D18FFD9B9009ACA89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D76C98C18FFD9B9009ACA89 /* DAAPDecoder.app */,
+				1D76C9AD18FFD9B9009ACA89 /* DAAPDecoderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D76C98E18FFD9B9009ACA89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D76C98F18FFD9B9009ACA89 /* Cocoa.framework */,
+				1D76C9AE18FFD9B9009ACA89 /* XCTest.framework */,
+				1D76C99118FFD9B9009ACA89 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D76C99118FFD9B9009ACA89 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D76C99218FFD9B9009ACA89 /* AppKit.framework */,
+				1D76C99318FFD9B9009ACA89 /* CoreData.framework */,
+				1D76C99418FFD9B9009ACA89 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1D76C99518FFD9B9009ACA89 /* DAAPDecoder */ = {
+			isa = PBXGroup;
+			children = (
+				1D76C9C318FFDA0D009ACA89 /* URDAAPDecoder.h */,
+				1D76C9C418FFDA0D009ACA89 /* URDAAPDecoder.m */,
+				1D76C9A118FFD9B9009ACA89 /* URAppDelegate.h */,
+				1D76C9A218FFD9B9009ACA89 /* URAppDelegate.m */,
+				1D76C9A418FFD9B9009ACA89 /* MainMenu.xib */,
+				1D76C9A718FFD9B9009ACA89 /* Images.xcassets */,
+				1D76C99618FFD9B9009ACA89 /* Supporting Files */,
+			);
+			path = DAAPDecoder;
+			sourceTree = "<group>";
+		};
+		1D76C99618FFD9B9009ACA89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D76C99718FFD9B9009ACA89 /* DAAPDecoder-Info.plist */,
+				1D76C99818FFD9B9009ACA89 /* InfoPlist.strings */,
+				1D76C99B18FFD9B9009ACA89 /* main.m */,
+				1D76C99D18FFD9B9009ACA89 /* DAAPDecoder-Prefix.pch */,
+				1D76C99E18FFD9B9009ACA89 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D76C98B18FFD9B9009ACA89 /* DAAPDecoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D76C9BD18FFD9B9009ACA89 /* Build configuration list for PBXNativeTarget "DAAPDecoder" */;
+			buildPhases = (
+				1D76C98818FFD9B9009ACA89 /* Sources */,
+				1D76C98918FFD9B9009ACA89 /* Frameworks */,
+				1D76C98A18FFD9B9009ACA89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DAAPDecoder;
+			productName = DAAPDecoder;
+			productReference = 1D76C98C18FFD9B9009ACA89 /* DAAPDecoder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D76C9AC18FFD9B9009ACA89 /* DAAPDecoderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D76C9C018FFD9B9009ACA89 /* Build configuration list for PBXNativeTarget "DAAPDecoderTests" */;
+			buildPhases = (
+				1D76C9A918FFD9B9009ACA89 /* Sources */,
+				1D76C9AA18FFD9B9009ACA89 /* Frameworks */,
+				1D76C9AB18FFD9B9009ACA89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D76C9B218FFD9B9009ACA89 /* PBXTargetDependency */,
+			);
+			name = DAAPDecoderTests;
+			productName = DAAPDecoderTests;
+			productReference = 1D76C9AD18FFD9B9009ACA89 /* DAAPDecoderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D76C98418FFD9B9009ACA89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = UR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Rick;
+				TargetAttributes = {
+					1D76C9AC18FFD9B9009ACA89 = {
+						TestTargetID = 1D76C98B18FFD9B9009ACA89;
+					};
+				};
+			};
+			buildConfigurationList = 1D76C98718FFD9B9009ACA89 /* Build configuration list for PBXProject "DAAPDecoder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D76C98318FFD9B9009ACA89;
+			productRefGroup = 1D76C98D18FFD9B9009ACA89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D76C98B18FFD9B9009ACA89 /* DAAPDecoder */,
+				1D76C9AC18FFD9B9009ACA89 /* DAAPDecoderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D76C98A18FFD9B9009ACA89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D76C99A18FFD9B9009ACA89 /* InfoPlist.strings in Resources */,
+				1D76C9A818FFD9B9009ACA89 /* Images.xcassets in Resources */,
+				1D76C9A018FFD9B9009ACA89 /* Credits.rtf in Resources */,
+				1D76C9A618FFD9B9009ACA89 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D76C9AB18FFD9B9009ACA89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D76C98818FFD9B9009ACA89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D76C9C518FFDA0D009ACA89 /* URDAAPDecoder.m in Sources */,
+				1D76C99C18FFD9B9009ACA89 /* main.m in Sources */,
+				1D76C9A318FFD9B9009ACA89 /* URAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D76C9A918FFD9B9009ACA89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D76C9B218FFD9B9009ACA89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D76C98B18FFD9B9009ACA89 /* DAAPDecoder */;
+			targetProxy = 1D76C9B118FFD9B9009ACA89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D76C99818FFD9B9009ACA89 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D76C99918FFD9B9009ACA89 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1D76C99E18FFD9B9009ACA89 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D76C99F18FFD9B9009ACA89 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		1D76C9A418FFD9B9009ACA89 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D76C9A518FFD9B9009ACA89 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D76C9BB18FFD9B9009ACA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1D76C9BC18FFD9B9009ACA89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1D76C9BE18FFD9B9009ACA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DAAPDecoder/DAAPDecoder-Prefix.pch";
+				INFOPLIST_FILE = "DAAPDecoder/DAAPDecoder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1D76C9BF18FFD9B9009ACA89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DAAPDecoder/DAAPDecoder-Prefix.pch";
+				INFOPLIST_FILE = "DAAPDecoder/DAAPDecoder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1D76C9C118FFD9B9009ACA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DAAPDecoder.app/Contents/MacOS/DAAPDecoder";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DAAPDecoder/DAAPDecoder-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DAAPDecoderTests/DAAPDecoderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1D76C9C218FFD9B9009ACA89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DAAPDecoder.app/Contents/MacOS/DAAPDecoder";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DAAPDecoder/DAAPDecoder-Prefix.pch";
+				INFOPLIST_FILE = "DAAPDecoderTests/DAAPDecoderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D76C98718FFD9B9009ACA89 /* Build configuration list for PBXProject "DAAPDecoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D76C9BB18FFD9B9009ACA89 /* Debug */,
+				1D76C9BC18FFD9B9009ACA89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D76C9BD18FFD9B9009ACA89 /* Build configuration list for PBXNativeTarget "DAAPDecoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D76C9BE18FFD9B9009ACA89 /* Debug */,
+				1D76C9BF18FFD9B9009ACA89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1D76C9C018FFD9B9009ACA89 /* Build configuration list for PBXNativeTarget "DAAPDecoderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D76C9C118FFD9B9009ACA89 /* Debug */,
+				1D76C9C218FFD9B9009ACA89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D76C98418FFD9B9009ACA89 /* Project object */;
+}
